@@ -1,0 +1,180 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #575757;
+  margin: 0;
+}
+section {
+  margin-bottom: 80px;
+}
+
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 25px;
+}
+del {
+  color: coral;
+}
+
+.menu-section {
+  display: flex;
+  background-color: black;
+}
+.logo {
+  margin-left: 80px;
+}
+.menu {
+  display: flex;
+  margin-top: 15px;
+  color: rgb(179, 181, 184);
+}
+.menu-list {
+  width: 70%;
+}
+.menu-button {
+  width: 30%;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+a {
+  text-decoration: none;
+  color: #979393;
+}
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+}
+.menu ul li {
+  margin-left: 20px;
+}
+
+.head-section {
+  display: flex;
+  margin-left: 80px;
+}
+
+.heading {
+  margin-top: 100px;
+}
+.colorfull-text {
+  color: orange;
+}
+.half-width {
+  width: 50%;
+}
+.slogan {
+  margin-bottom: 50px;
+  padding-right: 250px;
+}
+.button {
+  background-image: linear-gradient(to right, orange, rgb(255, 84, 4));
+  padding: 15px 30px;
+  text-decoration: none;
+  color: white;
+  border-radius: 50px;
+  /* box-shadow: 5px 5px 40px orangered; */
+}
+
+.eating-lady {
+  width: 80%;
+}
+
+.about-section {
+  display: flex;
+  background-image: url(images/shapes/lady-background.png);
+  background-repeat: no-repeat;
+  padding-top: 50px;
+}
+.about-lady {
+  width: 49.5%;
+  padding-left: 150px;
+}
+.about-text {
+  margin-bottom: 50px;
+  padding-right: 150px;
+}
+
+.recipe-text {
+  text-align: center;
+  margin: 0% 25%;
+}
+
+.recipe-cotainer {
+  display: flex;
+  width: 88%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.recipe-card {
+  width: 24%;
+  margin: auto;
+  box-shadow: 10px 10px 40px rgb(216, 214, 214);
+  border: 15px solid white;
+  border-radius: 25px;
+}
+.recipe-card img {
+  width: 100%;
+}
+.followers-card {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  box-shadow: 10px 10px 40px rgb(216, 214, 214);
+  border: 15px solid white;
+  border-radius: 25px;
+}
+
+.followers {
+  margin: 25px;
+  text-align: center;
+  width: 33.3%;
+}
+
+.title {
+  color: black;
+}
+
+.special-section {
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 80px;
+}
+.items {
+  box-shadow: 10px 10px 40px rgb(166, 210, 245);
+  border: 15px solid white;
+  border-radius: 25px;
+  background-color: #f3a683;
+  padding-bottom: 50px;
+}
+
+.special-text {
+  color: hsl(0, 0%, 29%);
+  margin-left: 20px;
+}
+.items ul li {
+  font-size: 25px;
+  margin-left: 50px;
+}
+.items ul {
+  margin-bottom: 50px;
+}
+
+#discount-btn {
+  margin-left: 40%;
+}
+
+.footer-section {
+  background-color: black;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+.footer-text {
+  color: rgb(179, 181, 184);
+}
